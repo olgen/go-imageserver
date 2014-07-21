@@ -36,7 +36,7 @@ func main() {
 	}
 
 	http.Handle("/", imageHTTPHandler)
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(portSetting(), nil)
 	if err != nil {
 		panic(err)
 	}
