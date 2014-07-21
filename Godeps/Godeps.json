@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/blloon/imageserver",
+	"GoVersion": "go1.1.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/pierrre/imageserver",
+			"Rev": "595d3820e5495d593e143d99f5be41018ce83882"
+		}
+	]
+}
